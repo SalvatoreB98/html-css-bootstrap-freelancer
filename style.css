@@ -11,6 +11,9 @@
     li a{
         color: white;
     }
+    .menu-icon a{
+        color: white;
+    }
     .hero{
         text-align: center;
         background-color: #1abc9c;
@@ -29,6 +32,9 @@
     }
     .about h2 {
         color: white;
+    }
+    .contact-me h2{
+        text-align: center;
     }
     footer{
         color: white;
@@ -62,6 +68,11 @@
     }
     .light-brown{
         background-color: #ccb2a3;
+    }
+    .menu-icon{
+        position: absolute;
+        right:  10%;
+        font-size: 20px;
     }
     
     
