@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Freelancer</title>
 </head>
 <body>
-    <nav>
+    <nav class="navbar navbar-default ms-nav-style">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-8">
-                    START BOOTSTRAP
-                </div>
-                <div class="col-xs-4 hidden-xs ">
-                    <ul class="menu-container">
-                        <li> <a> PORTFOLIO </a> </li>
-                        <li> <a> ABOUT </a> </li>
-                        <li> <a> CONTACT </a> </li>
-                    </ul>
-                </div>
-                <div class="visible-xs menu-icon">
-                        <a href="#">&#9776;</a> 
-                    </div>
+            <div class="navbar-header">
+                <a class="navbar-brand brand-style" href="#">START BOOTSTRAP</a>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav navbar-right menu-container hidden-xs">
+                    <li> <a> PORTFOLIO </a> </li>
+                    <li> <a> ABOUT </a> </li>
+                    <li> <a> CONTACT </a> </li>
+                </ul>
+            </div>
+            <div class="visible-xs menu-icon">
+                <a href="#">&#9776;</a> 
             </div>
         </div>
     </nav>
     <section class="hero">
-        <img src="img/avatar.svg" width="100px" height="100px" alt="Hero IMG">
+        <div class="hero-img-container">
+            <img src="img/avatar.svg" class=" img-responsive center-block" alt="Hero IMG">
+        </div>
         <h1>   START BOOTSTRAP </h1>
         <h3>    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>    
     </section>
