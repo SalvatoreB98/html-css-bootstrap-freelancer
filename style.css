@@ -45,6 +45,9 @@ form{
 
 .menu-icon a {
 	color: white;
+    border: 1px solid #6476b3;
+    border-radius: 4px;
+    padding: 5px 10px;
 }
 
 
@@ -163,6 +166,7 @@ footer address, footer div{
 .green-bg p{
     color: white;
     font-weight: 500;
+    font-size: 20px;
 }
 .about .horizontal-line-container{
     margin-bottom: 25px;
