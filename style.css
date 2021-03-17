@@ -162,7 +162,7 @@ footer address, footer div{
 /* ABOUT */
 .green-bg p{
     color: white;
-    font-weight: 600;
+    font-weight: 500;
 }
 .about .horizontal-line-container{
     margin-bottom: 25px;
@@ -173,8 +173,8 @@ footer address, footer div{
 .btn-container{
     margin-top: 25px;
 }
-/* UTILITIES */
 
+/* UTILITIES */
 .green-bg{
     background-color: #1abc9c;
 }
@@ -197,14 +197,20 @@ footer address, footer div{
     color: white;
     border: 0;
 }
-
+.navbar li:hover{
+    background-color: white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
 /* MEDIA QUERY MOBILE RESPONSIVENESS   */
 
 @media screen and (max-width:500px) {
 	.hero h1 {
 		font-size: 30px;
 	}
-    .portfolio h2 {
+    .portfolio h2, .about h2, .contact-me h2{
 		font-size: 25px;
 	}   
     .about h2 {
