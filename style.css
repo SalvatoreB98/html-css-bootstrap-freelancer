@@ -1,116 +1,212 @@
-   /* NAVBAR */
-   .ms-nav-style{
-        padding: 10px 0px;
-        background-color: #2c3e50;
-        color: white;
-        margin-bottom: 0;
-        border: none;
-    }
-    .navbar-default .navbar-brand {
-        font-size: 21px;
-        color: white;
-        font-weight: 600;
-    }
-   .menu-container{
-        float: right;
-    }
-    .navbar-default .navbar-nav>li>a {
-        font-size: 15px;
-        font-weight: 600;
-        color: white;
-    }
-    .nav>li {
-        display: inline-block;
-    }
-    .menu-icon a{
-        color: white;
-    }
-    /* SECTION HERO */
-    section{
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .hero{
-        text-align: center;
-        background-color: #1abc9c;
-        color: white;
-    }
-    .hero-img-container{
-        width:200px;
-        margin: auto;
-    }
-    /* PORTFOLIO */
-    .portfolio{
-        text-align: center;
-    }
-    .card{
-        border-radius: 10px;
-        height: 200px;
-        width: 100%;
-        margin-top: 30px;
-    }
-    .about{
-        text-align: center;
-        background-color: #1abc9c ;
-    }
-    .about h2 {
-        color: white;
-    }
-    .contact-me h2{
-        text-align: center;
-    }
-    footer{
-        color: white;
-    }
-    .footer-top{
-        background-color: #3a546d;
-    }
-    .footer-bottom{
-        background-color: #2c3e50;
-        text-align: center;
-    }
+/* SELETTORI DI TAG GLOBALI*/
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+h4{
+    font-size: 25px;
+}
+strong{
+    color: #1abc9c;
+}
+form{
+    margin-top: 50px;
+}
+/* NAVBAR */
+.ms-nav-style {
+    border-radius: 0;
+	padding: 10px 0px;
+	background-color: #2c3e50;
+	color: white;
+	margin-bottom: 0;
+	border: none;
+}
 
-    /* UTILITIES */
-    .burgundy{
-        background-color: #ba4b63;
+.navbar-default .navbar-brand {
+	font-size: 21px;
+	color: white;
+	font-weight: 600;
+}
+
+.menu-container {
+	float: right;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 15px;
+	font-weight: 600;
+	color: white;
+}
+
+.nav>li {
+	display: inline-block;
+}
+
+.menu-icon a {
+	color: white;
+}
+
+
+/* SECTION HERO START BOOTSTRAP*/
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.hero {
+	text-align: center;
+	color: white;
+}
+.hero h1 {
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.hero h3 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.hero-img-container {
+	width: 200px;
+	margin: auto;
+}
+.horizontal-line-container{
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+}
+.line, .star{
+    display: inline-block;
+}
+.line{
+    width: 33%;
+    border-top: 2px solid black;
+    border-radius: 2px;
+}
+.green-bg .line{
+    border-top: 2px solid white;
+}
+.star{
+    font-size: 25px;
+    padding: 0 5px;
+    transform: translateY(7px);
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+	text-align: center;
+}
+.portfolio h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.portfolio .line{
+    border-top: 2px solid black;
+}
+.card {
+	margin-top: 30px;
+}
+.portfolio img{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.about {
+	text-align: center;
+}
+
+.about h2 {
+	color: white;
+}
+.contact-me h2 {
+	text-align: center;
+}
+
+footer {
+    text-align: center;
+	color: white;
+}
+
+.footer-top {
+    padding: 50px 0px;
+	background-color: #3a546d;
+}
+
+.footer-bottom {
+    padding: 50px 0px;
+	background-color: #2c3e50;
+	text-align: center;
+}
+/* ABOUT */
+.green-bg p{
+    color: white;
+    font-weight: 600;
+}
+.about .horizontal-line-container{
+    margin-bottom: 25px;
+}
+.about p{
+    text-align: left;
+}
+.btn-container{
+    margin-top: 25px;
+}
+/* UTILITIES */
+
+.green-bg{
+    background-color: #1abc9c;
+}
+.green-bg .star{
+    color: white;
+}
+.menu-icon {
+	position: absolute;
+	top: 25px;
+	right: 10%;
+	font-size: 20px;
+}
+.ms-white-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.ms-green-btn{
+    background-color: #1abc9c;
+    color: white;
+    border: 0;
+}
+
+/* MEDIA QUERY MOBILE RESPONSIVENESS   */
+
+@media screen and (max-width:500px) {
+	.hero h1 {
+		font-size: 30px;
+	}
+    .portfolio h2 {
+		font-size: 25px;
+	}   
+    .about h2 {
+		font-size: 25px;
+	}  
+}
+@media screen and (max-width:9990px) {
+    .portfolio img{
+        max-width: 500px;
     }
-    .blue{
-        background-color: #1ea4b6;
-    }
-    .light-blue{
-        background-color: #1ea4b6;
-    }
-    .blue{
-        background-color: #0e38b5;
-    }
-    .sky-blue{
-        background-color: #1c83c1;
-    }
-    .black{
-        background-color: black;
-    }
-    .light-brown{
-        background-color: #ccb2a3;
-    }
-    .menu-icon{
-        position: absolute;
-        top: 25px;
-        right:  10%;
-        font-size: 20px;
-    }
-    h1{
-        font-size: 45px;
-        font-weight: 700;
-    } 
-    h3{
-        font-size: 18px;
-        font-weight: 500;
-    }
-    /* MEDIA QUERY MOBILE RESPONSIVENESS   */
-    @media screen and (max-width:500px) {
-        h1{
-            font-size: 30px;
-            font-weight: 700;
-        } 
-    }
-    
+}
+/* BOOTSTRAP OVERRIDE */
+/* FORM */
+label{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #808080;
+    box-shadow: none;
+}
