@@ -59,6 +59,7 @@ section {
 }
 
 .hero {
+    padding-top: 70px;
 	text-align: center;
 	color: white;
 }
@@ -179,6 +180,11 @@ footer address, footer div{
 }
 
 /* UTILITIES */
+.position-fixed{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
 .green-bg{
     background-color: #1abc9c;
 }
