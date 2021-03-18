@@ -33,10 +33,9 @@ form{
 	float: right;
 }
  
-.navbar-default .navbar-nav>li>a {
-	font-size: 15px;
-	font-weight: 600;
-	color: white;
+.ms-nav-style .navbar-nav>li>a:focus, .ms-nav-style .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
 }
 
 .nav>li {
@@ -50,7 +49,13 @@ form{
     padding: 5px 10px;
 }
 
-
+.ms-nav-style.navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>.nav-a{
+    color: white;
+}
 /* SECTION HERO START BOOTSTRAP*/
 
 section {
@@ -208,7 +213,7 @@ footer address, footer div{
     border: 0;
 }
 .navbar li:hover{
-    background-color: white;
+    background-color: #172233;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: white;
